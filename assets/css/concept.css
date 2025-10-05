@@ -1,0 +1,146 @@
+body {
+  background: black;
+}
+/* top bar */
+.topbar {
+  display: flex;
+
+  align-items: center;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  color: white;
+}
+.topbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+/* main layout */
+.main {
+  color: white;
+  display: grid;
+  grid-template-columns: 1.05fr 1.35fr;
+  gap: 28px;
+  padding: 26px;
+}
+@media (max-width: 980px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+.left {
+  width: 93%;
+}
+.left {
+  padding: 8px 8px 8px 2px;
+}
+.title {
+  font-size: clamp(28px, 5.6vw, 52px);
+  line-height: 1.02;
+  margin: 4px 0 8px;
+  font-weight: 800;
+  font-family: robot;
+}
+.subtitle {
+  color: var(--muted);
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 18px;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--chipbg);
+  color: #111;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #00d9ff;
+  box-shadow: 0 0 0 2px rgba(0, 217, 255, 0.15);
+}
+
+.desc {
+  color: white;
+  font-size: 19px;
+  line-height: 1.7;
+  max-width: 68ch;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+.btn {
+  all: unset;
+  cursor: pointer;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-weight: 800;
+  color: #0b0c0f;
+  background: #ffffff;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.12) inset;
+}
+.btn--ghost {
+  background: transparent;
+}
+
+/* right image */
+.hero {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  color: white;
+  grid-template-columns: 1.1fr 1fr;
+  min-height: 420px;
+  position: fixed;
+  width: 60%;
+  right: 0;
+  border-radius: 14px 0px 0px 14px;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.05) contrast(1.02);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+/* small caption block */
+.caption {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 12px;
+}
+.bracket-container {
+  display: flex;
+  z-index: 10;
+}
+button#menuToggle {
+  background: black;
+  color: white;
+  border: none;
+}

@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>mercedesSite</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
-    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Scroll-to-top.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
 
-<body>
-    <section id="con">
-        <div class="container" style="padding-top: 58px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 id="concept-heading" style="text-align: center;font-family: Montserrat, sans-serif;">Mercedes-Benz</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h4 style="text-align: center;font-family: Montserrat, sans-serif;">We strive for the future</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex d-md-flex justify-content-center align-items-center align-content-center align-self-center justify-content-sm-center justify-content-md-center" style="padding-top: 10px;"><a class="btn d-flex justify-content-center align-items-center align-content-center justify-content-sm-center justify-content-md-center align-items-md-center" role="button" id="button-back" href="index.html">Home Page</a></div>
-            </div>
-        </div>
-    </section>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
-    <script src="assets/js/Scroll-to-top.js"></script>
-</body>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css" />
+    <link rel="stylesheet" href="assets/css/concept.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="frame">
+        <header class="topbar">
+            <div class = "bracket-container">
+                <div class = "bracket-left">[ </div>
+                <!-- <div class="nav-right" id="menuToggle" onclick="toggleMenu()">MENU</div> -->
+                <button class="nav-right" id="menuToggle" aria-expanded="false" aria-controls="menu">
+                  MENU
+                </button>
+                <div class = "bracket-right">] </div>
+          
+        </header>
+
+        <section class="main">
+          <div class="left">
+            <h1 class="title">Mercedes-AMG</h1>
+            <p class="subtitle">Concept GT XX</p>
+
+            
+
+            <p class="desc">
+            This is more than a concept. It’s a statement. A declaration that the future of mobility is not just autonomous or electric—it's empathetic, adaptive, and breathtakingly beautiful. It’s the silence of its propulsion, the intelligence of its interface, and the sheer theater of its presence.
+
+                This is not the next step in automotive evolution. This is the leap.
+            </p>
+
+           
+
+          </div>
+
+          <figure class="hero">
+            <img src="assets/img/m-conecept.jpg" alt="Neon-lit car close-up" />
+          </figure>
+        </section>
+      </div>
+    </div>
+      <script>
+    const myButton = document.getElementById("menuToggle");
+
+    myButton.addEventListener("click", () => {
+        window.location.href="index.html";
+    });
+  </script>
+  </body>
 
 </html>
