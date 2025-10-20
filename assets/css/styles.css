@@ -1,12 +1,18 @@
 #title {
-  background: url("../../assets/img/m-amg.jpg") bottom / cover no-repeat;
+  background: url("../../assets/img/sportcar.png") bottom / cover no-repeat;
+}
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffffd9 !important;
+  color: black;
+  position: relative;
 }
 nav.navbar.navbar-light.navbar-expand-md.bg-light {
   background: #ffffffd9 !important;
 }
 @media (min-width: 576px) {
   #title {
-    background: url("../../assets/img/m-amg.jpg") bottom / cover no-repeat;
+    background: url("../../assets/img/sportcar.png") bottom / cover no-repeat;
   }
 }
 
@@ -110,7 +116,13 @@ nav {
   border-style: solid;
   border-color: var(--bs-white);
 }
-
+video.main-image {
+  height: 42vh;
+  background: #000000;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0px 1px 28px 1px #000000cf;
+}
 #video-stats {
   text-align: center;
   background: #ffffffd9;
@@ -118,6 +130,7 @@ nav {
   padding: 3%;
   padding-top: 8%;
   padding-bottom: 8%;
+  width: 100%;
 }
 
 #video-stats iframe {
@@ -585,13 +598,12 @@ th#base-specs {
 
 .right {
   position: relative;
-  background: #0e0e0e;
   display: grid;
   place-items: center;
   padding: 0;
 }
 .right img {
-  width: 100%;
+  width: 91%;
   height: 100%;
   object-fit: cover;
   display: block;
