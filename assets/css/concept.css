@@ -10,6 +10,10 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   color: white;
 }
+.modal-backdrop.show {
+  opacity: 0.5;
+  z-index: -1 !important;
+}
 .topbar a {
   color: white;
   text-decoration: none;
