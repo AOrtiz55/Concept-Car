@@ -1,4 +1,4 @@
-# CODE-GT — Concept Site (HTML/CSS)
+# CODE-GT — Concept Car Site (HTML/CSS)
 
 **Future:** I will rebuild this project as a modern single-page app using **React** or **Angular**.
 
