@@ -1040,6 +1040,7 @@ section#stats {
 
 /* Glass panel */
 .hud__inner {
+  color: white;
   position: relative;
   background: linear-gradient(
       180deg,
