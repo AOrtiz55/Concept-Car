@@ -1,6 +1,9 @@
 #title {
   background: url("../../assets/img/sportcar.png") bottom / cover no-repeat;
 }
+.container.hud__inner {
+    color: white!important;
+}
 .footer-basic {
   padding: 40px 0;
   background-color: #ffffffd9 !important;
