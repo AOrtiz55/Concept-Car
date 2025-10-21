@@ -1,9 +1,9 @@
-# Mercedes AMG-GT — Concept Site (HTML/CSS)
+# CODE-GT — Concept Site (HTML/CSS)
 
 **Future:** I will rebuild this project as a modern single-page app using **React** or **Angular**.
 
-> A cinematic concept site for the Mercedes AMG-GT built with **HTML + CSS (and a pinch of Bootstrap)**.  
-> **Live demo:** https://aortiz55.github.io/Mercedes-Benz/
+> A cinematic concept site for a concept hypercar built with **HTML + CSS (and a pinch of Bootstrap)**.  
+> **Live demo:** https://aortiz55.github.io/Concept-Car/
 
 [![Made with HTML/CSS](https://img.shields.io/badge/Made%20with-HTML%20%26%20CSS-ef652a.svg)](https://developer.mozilla.org/)
 [![Bootstrap](https://img.shields.io/badge/UI-Bootstrap-7b11f3.svg)](https://getbootstrap.com/)
@@ -25,7 +25,7 @@
 
 ## 🌐 Demo
 
-- **Live:** https://aortiz55.github.io/Mercedes-Benz/
+- **Live:** https://aortiz55.github.io/Concept-Car/
 - **Note:** Personal **concept** for educational/portfolio use (non-commercial).
 
 ---
